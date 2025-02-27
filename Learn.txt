@@ -1,0 +1,69 @@
+0. JavaScript Object and Functions
+1. Asynchronous JavaScript (Promises, Async/Await)
+2.Object-Oriented Programming (OOP) in JavaScript
+3. JavaScript ES6+ Features
+4. DOM Manipulation
+5.Algorithms & Data Structures
+6. React.js (Since You're a React Native Developer)
+
+
+JavaScript ES6+ Features 🚀
+
+1. let, const (Block-Scoped Variables)
+Difference between var, let, and const
+Temporal Dead Zone (TDZ)
+When to use const over let
+2. Arrow Functions (=>)
+Syntax and benefits
+Implicit return
+Lexical this binding
+Differences from regular functions
+3. Template Literals (``)
+Multi-line strings
+String interpolation with ${}
+4. Destructuring Assignment
+Destructuring arrays
+Destructuring objects
+Default values in destructuring
+5. Spread and Rest Operators (...)
+Spreading arrays and objects
+Rest parameters in functions
+6. Default Parameters in Functions
+Setting default values in function arguments
+7. Enhanced Object Literals
+Shorthand property names
+Method definitions in objects
+Computed property names
+8. Modules (import/export)
+Named vs. default exports
+Dynamic imports (import())
+9. Classes and Inheritance (ES6 OOP)
+Class syntax (class and constructor)
+Extending classes with extends
+super keyword
+10. Promises & Async/Await (You already know this, but recap the latest changes)
+Chaining .then()
+Error handling with .catch()
+Async functions and await
+11. Symbol and Iterators
+Symbol type and its use cases
+Iterators and Generators (function*)
+12. Sets and Maps (You’ve learned WeakMap & WeakSet, now learn their strong versions)
+Set (Unique values, add, delete, has)
+Map (Key-value pairs, iteration)
+13. Optional Chaining (?.)
+Avoid undefined or null errors
+Example: user?.profile?.email
+14. Nullish Coalescing Operator (??)
+Difference between || and ??
+Example: const value = userInput ?? 'Default Value'
+15. BigInt (BigInt)
+Handling large numbers
+123n + 456n
+16. Fetch API and Modern HTTP Requests
+fetch()
+Handling responses with .json()
+Using async/await with fetch()
+17. ES6+ Error Handling (try...catch with optional binding)
+try...catch without error binding
+Using finally
