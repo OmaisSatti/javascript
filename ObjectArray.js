@@ -60,8 +60,9 @@ let above5oUsers = users.filter((user, index) => user.salary > 50000)
 //console.log('all user above 50 salary: ', above5oUsers)
 
 // Check if any user has a salary below 40,000
-let below40 = users.some((user, index) => user.salary < 40000)
-//console.log('user exist below 40000 salary: ', below40)
+// let below40 = users.find((user, index) => user.salary < 40000) will return complete object
+let below40 = users.some((user, index) => user.salary < 40000) // eill return true false
+// console.log('user exist below 40000 salary: ', below40)
 
 
 // Group users based on salary range

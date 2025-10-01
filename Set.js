@@ -3,7 +3,6 @@ const mySet = new Set();
 mySet.add(20)
 mySet.add(30)
 mySet.add(40)
-
 //============Instance method of Set in javascript======
 // console.log(set.size); // 3 (duplicates removed)
 // console.log(mySet.keys())

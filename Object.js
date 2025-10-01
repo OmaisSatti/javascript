@@ -71,7 +71,7 @@ const entries = new Map([
 
 const object = Object.fromEntries(entries);
 
-// console.log(object);
+console.log(object);
 
 //Instance Method of Object in javascript
 let myself=new Object({name:'Omais',City:'Rwp'})

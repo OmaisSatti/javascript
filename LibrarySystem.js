@@ -42,16 +42,18 @@ class Library {
         let book = this.books.find((book) => book.title === title);
         return book;
     }
+    showAllBooks() {
+        console.log('All Books in library: ', this.books)
+    }
 }
 
-let b1 = new Book('javax', 'jon', true);
-let b2 = new Book('javay', 'don', false)
-let b3 = new Book('javaz', 'man', true)
+let books = [
+    new Book('javax', 'jon', true),
+    new Book('javay', 'don', false),
+    new Book('javaz', 'man', true)
+]
 
-
-let lib = new Library();
-lib.addBook(b1);
-lib.addBook(b2);
-lib.addBook(b3);
-
-console.log(lib.findBook('javaz'))
+let library = new Library();
+books.forEach(book => library.addBook(book))
+// console.log(library.findBook('javaz'))
+console.log(library.showAllBooks())

@@ -1,4 +1,8 @@
-// Creating a WeakSet
+ /* WeakSet ek collection hota hai lekin sirf objects store kar sakta hai (primitive values allowed nahi).
+References weak hoti hain → agar koi object kahi aur se reference na ho, to garbage collector automatically usko memory se hata dega, chahe WeakSet me ho.
+Iteratable nahi hota (aap loop nahi chala sakte).
+Methods: .add(), .delete(), .has() (bas ye teen hi). */
+
 const activeUsers = new WeakSet();
 
 function login(user) {
